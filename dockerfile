@@ -4,6 +4,7 @@ WORKDIR ./
 
 COPY package*.json ./
 
+
 COPY .env ./.env
 
 RUN npm i --legacy-peer-deps
